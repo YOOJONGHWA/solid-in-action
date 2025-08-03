@@ -1,4 +1,4 @@
-package Srp;
+package SRP;
 
 public class UserServiceSRP {
 
