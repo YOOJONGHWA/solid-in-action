@@ -17,14 +17,3 @@ public class UserServiceSRP {
     }
 }
 
-class Logger {
-    public void log(String message) {
-        System.out.println("Save to log: " + message);
-    }
-}
-
-class EmailSender {
-    public void sendWelcomeEmail(String userName) {
-        System.out.println("Send welcome email to " + userName);
-    }
-}

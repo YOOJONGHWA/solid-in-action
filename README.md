@@ -1,0 +1,4 @@
+- SRP: One class, one responsibility
+- OCP: Extend with interfaces
+- LSP: Subclass behavior must be replaceable
+- DIP: Depend on abstractions, use constructor injection
