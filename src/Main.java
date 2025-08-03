@@ -1,3 +1,6 @@
+import DIP.EmailSender;
+import DIP.MessageSender;
+import DIP.NotificationService;
 import LSP.RectangleLSP;
 import LSP.SquareLSP;
 import LSP.Violate.Rectangle;
@@ -18,5 +21,10 @@ public class Main {
 
         SquareLSP square = new SquareLSP(4);
         System.out.println(square.printArea());
+
+        MessageSender sender = new EmailSender();  // or new SmsSender();
+        NotificationService service = new NotificationService(sender);
+
+        service.notify("Hello!");
     }
 }
